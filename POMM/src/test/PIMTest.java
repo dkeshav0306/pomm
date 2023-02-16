@@ -32,7 +32,7 @@ public class PIMTest extends CommonTest {
 	
 	@Test(priority=7,groups= {"smoke","regression"})
 	public void testcheck1() {
-		Assert.assertEquals(true,true);
+		Assert.assertEquals(false,false);
 	}
 	
 }
